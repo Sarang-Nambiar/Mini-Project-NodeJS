@@ -9,6 +9,7 @@ const staticPath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
 const partialsPath = path.join(__dirname, '../templates/partials'); // just like react components to be reused
 
+const port = process.env.PORT
 //Setting up handlebars engine and views location
 app.set('views', viewsPath) // setting up the views directory for handlebars
 app.set('view engine', 'hbs')
@@ -86,6 +87,6 @@ app.get('*', (req, res) => {  // * is a wildcard character
     })
 });
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(port, () => {
+    console.log('Server is up on port ' + port)
 }); // another parameter which is a callback function which runs when the server is setup
