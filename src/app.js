@@ -9,7 +9,7 @@ const staticPath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
 const partialsPath = path.join(__dirname, '../templates/partials'); // just like react components to be reused
 
-const port = process.env.PORT
+const port = process.env.PORT || 3000;
 //Setting up handlebars engine and views location
 app.set('views', viewsPath) // setting up the views directory for handlebars
 app.set('view engine', 'hbs')
