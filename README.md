@@ -10,7 +10,6 @@ The **Weather-app** is a web application that provides weather forecasts based o
 
 ## Features
 - Search for over 220 cities worldwide.
-- Toggle temperature display between Fahrenheit and Celsius.
 
 ## Live Demo
 Check out the live demo [here](https://sarang-weather-app-0c02beae2097.herokuapp.com/).
