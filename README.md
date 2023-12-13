@@ -24,4 +24,7 @@ Check out the live demo [here](https://sarang-weather-app-0c02beae2097.herokuapp
 ## Getting Started
 1. Clone this repository.
 2. Configure your own Mapbox and OpenWeatherMap API keys.
-3. Run the app locally using "nodemon src/app.js" from the parent directory in your terminal.
+3. Run the app locally using the command provided below from the parent directory in your terminal.
+```bash
+npm run start
+```
