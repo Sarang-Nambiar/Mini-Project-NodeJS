@@ -9,10 +9,7 @@ The **Weather-app** is a web application that provides weather forecasts based o
     - **OpenWeatherMap**: Fetches weather forecasts for the specified area.
 
 ## Features
-- Search for over 220 cities worldwide.
-
-## Live Demo
-Check out the live demo [here](https://sarang-weather-app-0c02beae2097.herokuapp.com/).
+- Search for over 220 cities worldwide receive their forecast in a matter of seconds.
 
 ## Built With
 - Handlebars
